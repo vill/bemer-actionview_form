@@ -18,3 +18,7 @@ Style/FrozenStringLiteralComment:
 
 Layout/AlignHash:
   EnforcedHashRocketStyle: table
+
+Naming/FileName:
+  Exclude:
+    - 'lib/bemer-actionview_form.rb'
