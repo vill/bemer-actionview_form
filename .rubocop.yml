@@ -1,0 +1,18 @@
+require:
+  - rubocop-rspec
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 2.3
+  DisplayCopNames: true
+
+Metrics/LineLength:
+  Max: 100
+  IgnoredPatterns:
+    - '^\s*#'
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table

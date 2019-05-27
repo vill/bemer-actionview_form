@@ -1,0 +1,11 @@
+pkg/*
+*.gem
+.bundle
+
+.ruby-version
+.ruby-gemset
+
+.DS_Store
+*.swp
+*.swo
+*~
